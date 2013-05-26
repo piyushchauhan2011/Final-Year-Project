@@ -1,0 +1,49 @@
+
+
+Current Candidates Size: 200
+Current Candidates Size: 200
+Current Candidates Size: 200
+Current Candidates Size: 200
+Current Candidates Size: 200
+
+Candidate: 0
+Distance Travelled by Trucks: 800.0000000000001
+Number of Trucks: 30
+Rank: 2
+Candidate: 1
+Distance Travelled by Trucks: 811.2000000000002
+Number of Trucks: 30
+Rank: 3
+Candidate: 2
+Distance Travelled by Trucks: 811.5000000000001
+Number of Trucks: 30
+Rank: 6
+Candidate: 3
+Distance Travelled by Trucks: 811.6000000000001
+Number of Trucks: 30
+Rank: 2
+Candidate: 4
+Distance Travelled by Trucks: 812.5000000000002
+Number of Trucks: 30
+Rank: 3
+Candidate: 5
+Distance Travelled by Trucks: 813.4
+Number of Trucks: 30
+Rank: 4
+Candidate: 6
+Distance Travelled by Trucks: 815.8000000000002
+Number of Trucks: 30
+Rank: 4
+Candidate: 7
+Distance Travelled by Trucks: 815.8999999999999
+Number of Trucks: 30
+Rank: 13
+Candidate: 8
+Distance Travelled by Trucks: 816.1000000000001
+Number of Trucks: 30
+Rank: 2
+Candidate: 9
+Distance Travelled by Trucks: 817.8000000000002
+Number of Trucks: 30
+Rank: 4
+BUILD SUCCESSFUL (total time: 5 minutes 18 seconds)

@@ -1,0 +1,53 @@
+
+Generation: 1
+Generation: 2
+Generation: 3
+Generation: 4
+Generation: 5
+Generation: 6
+Generation: 7
+Generation: 8
+Generation: 9
+Generation: 10
+
+Candidate: 0
+Distance Travelled by Trucks: 770.2000000000002
+Number of Trucks: 30
+Rank: 1
+Candidate: 1
+Distance Travelled by Trucks: 788.9000000000002
+Number of Trucks: 30
+Rank: 2
+Candidate: 2
+Distance Travelled by Trucks: 790.4000000000001
+Number of Trucks: 30
+Rank: 2
+Candidate: 3
+Distance Travelled by Trucks: 792.5
+Number of Trucks: 30
+Rank: 3
+Candidate: 4
+Distance Travelled by Trucks: 792.5
+Number of Trucks: 30
+Rank: 3
+Candidate: 5
+Distance Travelled by Trucks: 799.1
+Number of Trucks: 30
+Rank: 2
+Candidate: 6
+Distance Travelled by Trucks: 801.1999999999999
+Number of Trucks: 30
+Rank: 3
+Candidate: 7
+Distance Travelled by Trucks: 807.8
+Number of Trucks: 30
+Rank: 2
+Candidate: 8
+Distance Travelled by Trucks: 809.3000000000002
+Number of Trucks: 30
+Rank: 3
+Candidate: 9
+Distance Travelled by Trucks: 810.9000000000001
+Number of Trucks: 30
+Rank: 2
+BUILD SUCCESSFUL (total time: 10 minutes 27 seconds)
