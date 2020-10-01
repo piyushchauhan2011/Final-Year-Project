@@ -53,11 +53,11 @@ class Candidate implements Comparable<Candidate>, Serializable {
     public int compareTo(Candidate tmp) {
 
         if(this.fitness < tmp.fitness) {
-            return -1;
-        } else if(this.fitness == tmp.fitness) {
-            return 0;
-        } else {
             return 1;
+        } else if(this.fitness == tmp.fitness) {
+            return -1;
+        } else {
+            return 0;
         }
         
 //        if(this.rank < tmp.rank) {
