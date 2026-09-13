@@ -2,7 +2,7 @@
 
 GroceryKart is a Java 21 and JavaFX application for planning daily warehouse-to-store deliveries across a 600-store network. It compares two seeded genetic-algorithm variants with Google OR-Tools, independently validates every retained solution, and presents feasible alternatives ranked by estimated three-year operating cost.
 
-The original academic project implements the MUPHORIA transportation challenge. The historical project report is retained in [`SUPER FINAL.pdf`](SUPER%20FINAL.pdf).
+The original academic project implements the MUPHORIA transportation challenge. Its report, presentation, and runnable Java 7 application are retained under [`legacy/`](legacy/) for historical reference only. They describe the old application and do not document the corrected Java 21 implementation.
 
 ## Problem constraints
 
@@ -157,11 +157,31 @@ GroceryKart/
     │       ├── data/         bundled demand and distance inputs
     │       └── styles/       JavaFX stylesheet
     └── test/java/            unit, native, and bundled verification tests
+legacy/
+├── SUPER FINAL.pdf          outdated report for the original application
+├── project.pptx             outdated presentation for the original application
+└── GroceryKart/             self-contained original Java 7 application
+    ├── GroceryKart.jar
+    ├── DemandTable.txt
+    ├── DistanceMatrix.txt
+    └── lib/itextpdf-5.4.0.jar
 ```
 
-## Historical material
+## Legacy archive
 
-- [`SUPER FINAL.pdf`](SUPER%20FINAL.pdf) — original project report
-- [`project.pptx`](project.pptx) — original presentation
+The [`legacy/`](legacy/) directory is intentionally separate from the modern application:
 
-Legacy NetBeans, Ant, Swing, iText 5, serialized solution files, generated binaries, and invalid historical result artifacts have been removed from the runnable project.
+- [`legacy/SUPER FINAL.pdf`](legacy/SUPER%20FINAL.pdf) — **outdated** report for the original Java 7/NetBeans application.
+- [`legacy/project.pptx`](legacy/project.pptx) — **outdated** presentation for the original application.
+- [`legacy/GroceryKart/`](legacy/GroceryKart/) — self-contained original Swing application with its JAR, iText 5 dependency, demand table, and distance matrix.
+
+The PDF and PowerPoint explain the historical implementation and must not be treated as documentation for the corrected Java 21 application. The legacy application is retained for demonstration and reproduction only: its depot mapping, route splitting, and route totals are known to be incorrect.
+
+To launch the archived application:
+
+```sh
+cd legacy/GroceryKart
+java -jar GroceryKart.jar
+```
+
+See [`legacy/GroceryKart/README.TXT`](legacy/GroceryKart/README.TXT) for its bundled inputs, historical login, compatibility notes, and known limitations.
