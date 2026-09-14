@@ -44,3 +44,11 @@ The JAR was compiled with Java 7. It has been launch-smoke-tested from this
 self-contained directory using the current Java runtime, but old Swing behavior
 may differ by operating system. The modern Java 21 application is under
 ../../GroceryKart and should be used for corrected routing and reporting.
+
+Legacy code guide
+-----------------
+
+See ../LEGACY_CODE_GUIDE.md for annotated excerpts of the original loader,
+candidate model, route splitting, fitness scoring, mutation, PMX, BCRC, Pareto
+ranking, and report generation. The complete source is preserved in the Git
+revision linked from that guide.

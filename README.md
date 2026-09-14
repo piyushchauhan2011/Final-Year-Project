@@ -158,6 +158,7 @@ GroceryKart/
     │       └── styles/       JavaFX stylesheet
     └── test/java/            unit, native, and bundled verification tests
 legacy/
+├── LEGACY_CODE_GUIDE.md     annotated legacy algorithms and defects
 ├── SUPER FINAL.pdf          outdated report for the original application
 ├── project.pptx             outdated presentation for the original application
 └── GroceryKart/             self-contained original Java 7 application
@@ -174,6 +175,7 @@ The [`legacy/`](legacy/) directory is intentionally separate from the modern app
 - [`legacy/SUPER FINAL.pdf`](legacy/SUPER%20FINAL.pdf) — **outdated** report for the original Java 7/NetBeans application.
 - [`legacy/project.pptx`](legacy/project.pptx) — **outdated** presentation for the original application.
 - [`legacy/GroceryKart/`](legacy/GroceryKart/) — self-contained original Swing application with its JAR, iText 5 dependency, demand table, and distance matrix.
+- [`legacy/LEGACY_CODE_GUIDE.md`](legacy/LEGACY_CODE_GUIDE.md) — annotated, historically important source excerpts with explanations of the preserved GA concepts and corrected defects.
 
 The PDF and PowerPoint explain the historical implementation and must not be treated as documentation for the corrected Java 21 application. The legacy application is retained for demonstration and reproduction only: its depot mapping, route splitting, and route totals are known to be incorrect.
 
